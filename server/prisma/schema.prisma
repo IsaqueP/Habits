@@ -37,12 +37,9 @@ model Day {
   date DateTime
 
   dayHabits DayHabit[]
-
-  @@index([date])
-  @@map("days")
-
-
   
+  @@unique([date])
+  @@map("days")
 }
 
 model DayHabit {
