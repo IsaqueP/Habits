@@ -1,3 +1,4 @@
+
 -- CreateTable
 CREATE TABLE "habit_week_days" (
     "id" TEXT NOT NULL PRIMARY KEY,
